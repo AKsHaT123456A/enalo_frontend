@@ -36,12 +36,14 @@ const FormCard2 = () => {
                         <div className="form-item">
                             <label className="form-label">Department *</label>
                             <select className="form_select" defaultValue="Please Select">
+                                <option value="Please Select">Please Select</option>
                             </select>
 
                         </div>
                         <div className="form-item">
                             <label className="form-label">Time *</label>
                             <select className="form_select" defaultValue="Please Select">
+                                <option value="Please Select">4:00 PM Available</option>
                             </select>
                         </div>
                         <div className="form-item full-width">
