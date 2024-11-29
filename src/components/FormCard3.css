@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Plus:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:wght@300;400;500;600&family=Roboto:ital,wght@0,400;1,300;1,400&display=swap');
+
+body{
+  margin: 0%;
+  padding: 0%;
+  font-family: "Montserrat";
+  box-sizing: content-box;
+}
+
+.appointment-card {
+  font-family: "Montserrat";
+  width: 100%;
+  max-width: 328px;
+  margin: 0 auto;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  overflow: hidden;
+  padding: 40px;
+  gap:40px;
+}
+
+.card-header {
+  padding: 16px;
+  background-color:white;
+  text-align: center;
+  font-weight: bolder !important;
+  margin-bottom: 20px;
+}
+
+.card-title {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 700;
+  color: #111827;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 0;
+}
+.form-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-label {
+  margin-bottom: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #252B42;
+  text-align: left;
+}
+
+.form-input {
+  padding: 11px 21px;
+  border: 1px solid #E6E6E6;
+  border-radius: 4px;
+  font-size: 14px;
+  color: #737373;
+  background-color: #F9F9F9;
+  font-weight: 400;
+}
+
+.form-input:focus {
+  outline: none;
+  border-color: #2563eb;
+  box-shadow: 0 0 0 1px #2563eb;
+}
+
+.form_select {
+
+  padding: 11px 21px;
+  border: 1px solid #E6E6E6;
+  border-radius: 4px;
+  font-size: 14px;
+  color: #737373;
+  background-color: #F9F9F9;
+  font-weight: 400;
+}
+
+.form-button {
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #23A6f0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 20px;
+  height: 58px;
+  width: 100%;
+}
+
+.form-button:hover {
+  background-color: #1e40af;
+}
