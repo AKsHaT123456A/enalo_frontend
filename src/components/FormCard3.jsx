@@ -13,7 +13,7 @@ const FormCard2 = () => {
                             <input
                                 type="text"
                                 id="name"
-                                placeholder="Full Name"
+                                placeholder="Full Name*"
                                 className="form-input"
                                 required
                             />
@@ -22,7 +22,7 @@ const FormCard2 = () => {
                             <input
                                 type="email"
                                 id="email"
-                                placeholder="example@gmail.com"
+                                placeholder="Email*"
                                 className="form-input"
                                 required
                             />
