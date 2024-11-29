@@ -99,3 +99,7 @@ body{
 .form-button:hover {
   background-color: #1e40af;
 }
+.form-textarea{
+  background-color:#F9F9F9 ;
+  font-family: "Montserrat";
+}

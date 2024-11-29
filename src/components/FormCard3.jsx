@@ -47,13 +47,10 @@ const FormCard2 = () => {
                             </select>
                         </div>
                         <div className="form-item full-width">
-                            <label htmlFor="message" className="form-label">
-                                Message
-                            </label>
                             <textarea
                                 id="message"
                                 rows="4"
-                                placeholder=" message"
+                                placeholder=" Message"
                                 className="form-textarea"
                             ></textarea>
                         </div>
