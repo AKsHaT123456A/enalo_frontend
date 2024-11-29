@@ -10,9 +10,6 @@ const FormCard2 = () => {
                 <div className="form-container">
                     <div className="form-grid">
                         <div className="form-item">
-                            <label htmlFor="name" className="form-label">
-                                Name*
-                            </label>
                             <input
                                 type="text"
                                 id="name"
@@ -22,9 +19,6 @@ const FormCard2 = () => {
                             />
                         </div>
                         <div className="form-item">
-                            <label htmlFor="email" className="form-label">
-                                Email Address*
-                            </label>
                             <input
                                 type="email"
                                 id="email"
@@ -34,14 +28,12 @@ const FormCard2 = () => {
                             />
                         </div>
                         <div className="form-item">
-                            <label className="form-label">Department *</label>
                             <select className="form_select" defaultValue="Please Select">
                                 <option value="Please Select">Please Select</option>
                             </select>
 
                         </div>
                         <div className="form-item">
-                            <label className="form-label">Time *</label>
                             <select className="form_select" defaultValue="Please Select">
                                 <option value="Please Select">4:00 PM Available</option>
                             </select>
