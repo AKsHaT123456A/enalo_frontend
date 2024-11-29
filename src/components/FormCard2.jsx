@@ -11,7 +11,7 @@ export default function FormCard3() {
         <form className="form">
           <div className="form-item">
             <label className="form-label">Name *</label>
-            <input type="text" className="form-input" placeholder="Full Name" />
+            <input type="text" className="form-input" placeholder="Full Name*" />
           </div>
           <div className="form-item">
             <label className="form-label">Email address *</label>
